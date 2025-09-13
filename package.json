@@ -1,9 +1,7 @@
-
-
 {
   "name": "ai-avatar",
   "version": "0.1.0",
-  "homepage": "https://compenthusiast.github.io/ai-avatar/ ",
+  "homepage": "https://CompEnthusiast.github.io/ai-avatar",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
@@ -22,10 +20,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-<<<<<<< HEAD
-
-=======
->>>>>>> 7e833ac73fdb3746a7c9ed2c5b8e061c3a21c187
   },
   "eslintConfig": {
     "extends": [
@@ -48,5 +42,4 @@
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
-
 }
