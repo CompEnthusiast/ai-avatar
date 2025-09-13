@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CompEnthusiast/ai-avatar%20/static/css/main.7f612648.css",
+    "main.js": "/CompEnthusiast/ai-avatar%20/static/js/main.70407191.js",
+    "index.html": "/CompEnthusiast/ai-avatar%20/index.html",
+    "main.7f612648.css.map": "/CompEnthusiast/ai-avatar%20/static/css/main.7f612648.css.map",
+    "main.70407191.js.map": "/CompEnthusiast/ai-avatar%20/static/js/main.70407191.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f612648.css",
+    "static/js/main.70407191.js"
+  ]
+}
