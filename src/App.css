@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to bottom right, black, orange);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  text-align: center;
+  color: white;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.avatar-frame {
+  width: 500px;
+  height: 600px;
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(255, 140, 0, 0.6);
+  margin-bottom: 20px;
+}
+
+.download-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar-preview {
+  width: 200px;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 0 15px rgba(255, 140, 0, 0.7);
+}
+
+.download-btn {
+  padding: 10px 20px;
+  background: orange;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: black;
+  transition: transform 0.2s ease-in-out, background 0.3s;
+}
+
+.download-btn:hover {
+  background: #ff9f1c;
+  transform: scale(1.05);
+}
+.skeleton {
+  width: 200px;
+  height: 200px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  background: linear-gradient(
+    90deg,
+    #333 25%,
+    #444 37%,
+    #333 63%
+  );
+  background-size: 400% 100%;
+  animation: skeleton-loading 1.2s ease-in-out infinite;
+  box-shadow: 0 0 15px rgba(255, 140, 0, 0.3);
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
